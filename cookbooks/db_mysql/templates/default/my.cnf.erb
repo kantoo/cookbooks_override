@@ -78,10 +78,6 @@ innodb_data_home_dir = /var/lib/mysql/
 innodb_data_file_path = ibdata1:10M:autoextend
 innodb_log_group_home_dir = /var/lib/mysql
 
-<% if @node[:db_mysql][:packages_install].include?('mysql-server-5.0') %>
-innodb_log_arch_dir = /var/lib/mysql
-<% end %>
-
 innodb_file_per_table
 innodb_buffer_pool_size = <%= @node[:db_mysql][:tunable][:innodb_buffer_pool_size] %>
 innodb_additional_mem_pool_size = <%= @node[:db_mysql][:tunable][:innodb_additional_mem_pool_size] %>
