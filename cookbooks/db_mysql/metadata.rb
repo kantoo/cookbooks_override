@@ -1,7 +1,7 @@
 maintainer       "RightScale, Inc."
-maintainer_email "erik@rightscale.com"
-license          IO.read(File.expand_path(File.join(File.dirname(__FILE__), '..', '..', 'LICENSE')))
+maintainer_email "keren@la-mark.com"
+license          "RightScale Licence"
 description      "Install customer my.cnf file"
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.rdoc'))
+long_description "Long Description"
 version          "0.0.1"
 
