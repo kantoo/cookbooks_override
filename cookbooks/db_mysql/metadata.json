@@ -13,7 +13,7 @@
   "maintainer": "RightScale, Inc.",
   "replacing": {
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "maintainer_email": "keren@la-mark.com",
   "name": "db_mysql",
   "recipes": {
